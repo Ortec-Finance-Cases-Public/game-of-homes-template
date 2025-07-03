@@ -8,23 +8,8 @@
     "vscode": {
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
-        "ms-dotnettools.csharp",
-        "ms-dotnettools.csdevkit"
+        "ms-dotnettools.csharp"
       ]
     }
-  },
-
-  // Features to add to the dev container. More info: https://containers.dev/features.
-  "features": {
-    "ghcr.io/devcontainers/features/dotnet:2": {
-      "version": "8.0",
-      "installUsingApt": false
-    }
-  },
-
-  // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  "forwardPorts": [5000, 5001],
-
-  // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "dotnet --version"
+  }
 }
