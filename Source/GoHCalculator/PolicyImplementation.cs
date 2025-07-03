@@ -1,11 +1,7 @@
 ﻿namespace GoHCalculator
 {
-	class PolicyImplementation : Policy
+	class PolicyImplementation(HousingAssociation association) : Policy(association)
 	{
-		public PolicyImplementation(HousingAssociation association): base(association)
-		{	
-		}
-
 		/// Implement function DetermineNewRent below.
 		/// It determines the new house rent price of the house for a given house for the current year in the simulation.
 		/// 
@@ -37,8 +33,7 @@
 		/// 
 		public override double DetermineNewRent(House house)
 		{
-			throw new System.Exception("Implement DetermineNewRent in PolicyImplementation.cs");
-			//return house.MonthlyRent * (1 + Economy.Get(Series.PriceInflation));
+			return house.MonthlyRent;
 		}
 
 		/// Implement function DetermineSell below.
