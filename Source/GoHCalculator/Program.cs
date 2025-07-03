@@ -6,7 +6,7 @@ using System.Text.Json;
 
 namespace GoHCalculator
 {
-    public static class Program
+    public static class Programp
 	{
 		public static void Main()
 		{
@@ -27,7 +27,7 @@ namespace GoHCalculator
 
 			Console.WriteLine("Creating output json file......");
 			var jsonString = JsonSerializer.Serialize(output);
-			File.WriteAllText(Path.Combine("..","GoHDashboard","Blazor-Dashboard","wwwroot","results.json"), jsonString);
+			File.WriteAllText(Path.Combine("..", "..", "Source","GoHDashboard","Blazor-Dashboard","wwwroot","results.json"), jsonString);
 		}
 	}
 }
