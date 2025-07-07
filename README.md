@@ -10,8 +10,7 @@ In this repository, click the green button `Use this template`, then click `Open
 
 The Codespace runs a Linux environment with the .NET SDK installed. It is a fully functional development environment, so you can run the code and make changes to it.
 
-### Adding extensions
-C# Dev Kit also installs C# extension
+Creating the Codespace may take a few minutes, so be patient. Once the Codespace is ready, you will see a terminal window and a file explorer on the left side of the screen. C# extensions are automatically installed after the Codespace is created, so feel free to start with running the dashboard.
 
 ## Running the dashboard
 
